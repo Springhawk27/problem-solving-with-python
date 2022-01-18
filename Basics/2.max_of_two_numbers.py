@@ -27,7 +27,7 @@ else:
 
 #  using defination/function
 
-def max(a, b):
+def maximum(a, b):
     if(a > b):
         return("a is greater than b")
     elif(a == b):
@@ -40,12 +40,12 @@ x = input("Enter the first number:")
 y = input("Enter the second number:")
 
 
-print(max(x, y))
+print(maximum(x, y))
 
 
 # using max() function
 
 a = 12
 b = 10
-maximum = max(a, b)
-print("Largest number of {} and {} is {}".format(a, b, maximum))
+maximumNum = max(a, b)
+print("Largest number of {} and {} is {}".format(a, b, maximumNum))
