@@ -15,9 +15,9 @@ def compoundInterest(principle, time, rate):
     return ci
 
 
-p = 1200
-t = 2
-r = 5.4
+p = 15000
+t = 5
+r = 9.5
 
 result = compoundInterest(p, t, r)
 print("Compound Interest is {:.3f}".format(result))
